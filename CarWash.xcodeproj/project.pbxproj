@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2027524325A221F1006FB65E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2027524225A221F1006FB65E /* AppDelegate.swift */; };
 		2027524525A221F1006FB65E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2027524425A221F1006FB65E /* SceneDelegate.swift */; };
-		2027524725A221F1006FB65E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2027524625A221F1006FB65E /* ViewController.swift */; };
 		2027524A25A221F1006FB65E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2027524825A221F1006FB65E /* Main.storyboard */; };
 		2027524C25A221F5006FB65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2027524B25A221F5006FB65E /* Assets.xcassets */; };
 		2027524F25A221F5006FB65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2027524D25A221F5006FB65E /* LaunchScreen.storyboard */; };
+		20589F1225A22C4D00881BE7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20589F1125A22C4D00881BE7 /* MapKit.framework */; };
+		2097916A25B4355700823B2E /* ChooseWorkerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2097916925B4355700823B2E /* ChooseWorkerVC.swift */; };
+		20AD5FC425AE07A9002A99CC /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AD5FC325AE07A9002A99CC /* BookViewController.swift */; };
+		20EEADBB25B726DF005020AC /* WorkerCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EEADB925B726DF005020AC /* WorkerCells.swift */; };
+		20EEADBC25B726DF005020AC /* WorkerCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20EEADBA25B726DF005020AC /* WorkerCells.xib */; };
+		20FD1E1525A342B800859537 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD1E1425A342B800859537 /* LoginVC.swift */; };
+		20FD1E1825A342DD00859537 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD1E1725A342DD00859537 /* SignUpVC.swift */; };
+		20FD1E1B25A342F600859537 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD1E1A25A342F600859537 /* ForgotPasswordVC.swift */; };
+		20FD1E1E25A3431500859537 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD1E1D25A3431500859537 /* HomeViewController.swift */; };
+		20FD1E2C25A345CF00859537 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20FD1E2B25A345CF00859537 /* GoogleService-Info.plist */; };
+		690754E9EC3BD03E11897015 /* Pods_CarWash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37C8DAEDAE7C77DCCB0BFA7 /* Pods_CarWash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2027523F25A221F1006FB65E /* CarWash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarWash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2027524225A221F1006FB65E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2027524425A221F1006FB65E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2027524625A221F1006FB65E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2027524925A221F1006FB65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2027524B25A221F5006FB65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2027524E25A221F5006FB65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2027525025A221F5006FB65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20589F1125A22C4D00881BE7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2097916925B4355700823B2E /* ChooseWorkerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseWorkerVC.swift; sourceTree = "<group>"; };
+		20AD5FC325AE07A9002A99CC /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		20EEADB925B726DF005020AC /* WorkerCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerCells.swift; sourceTree = "<group>"; };
+		20EEADBA25B726DF005020AC /* WorkerCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkerCells.xib; sourceTree = "<group>"; };
+		20FD1E1425A342B800859537 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		20FD1E1725A342DD00859537 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		20FD1E1A25A342F600859537 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		20FD1E1D25A3431500859537 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		20FD1E2B25A345CF00859537 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E24A37EED79D75CF4FEDCDE8 /* Pods-CarWash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash.release.xcconfig"; path = "Target Support Files/Pods-CarWash/Pods-CarWash.release.xcconfig"; sourceTree = "<group>"; };
+		F37C8DAEDAE7C77DCCB0BFA7 /* Pods_CarWash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarWash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA99FBC296D2153B893BE56 /* Pods-CarWash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash.debug.xcconfig"; path = "Target Support Files/Pods-CarWash/Pods-CarWash.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20589F1225A22C4D00881BE7 /* MapKit.framework in Frameworks */,
+				690754E9EC3BD03E11897015 /* Pods_CarWash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +66,8 @@
 			children = (
 				2027524125A221F1006FB65E /* CarWash */,
 				2027524025A221F1006FB65E /* Products */,
+				2C7D864120B091A802B86836 /* Pods */,
+				9B45E9C36FA652DDF79F292D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,65 @@
 		2027524125A221F1006FB65E /* CarWash */ = {
 			isa = PBXGroup;
 			children = (
+				2027525725A22204006FB65E /* Model */,
+				2027525825A2220A006FB65E /* View */,
+				2027525925A22212006FB65E /* Controller */,
 				2027524225A221F1006FB65E /* AppDelegate.swift */,
 				2027524425A221F1006FB65E /* SceneDelegate.swift */,
-				2027524625A221F1006FB65E /* ViewController.swift */,
 				2027524825A221F1006FB65E /* Main.storyboard */,
 				2027524B25A221F5006FB65E /* Assets.xcassets */,
 				2027524D25A221F5006FB65E /* LaunchScreen.storyboard */,
+				20FD1E2B25A345CF00859537 /* GoogleService-Info.plist */,
 				2027525025A221F5006FB65E /* Info.plist */,
 			);
 			path = CarWash;
+			sourceTree = "<group>";
+		};
+		2027525725A22204006FB65E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2027525825A2220A006FB65E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20EEADB925B726DF005020AC /* WorkerCells.swift */,
+				20EEADBA25B726DF005020AC /* WorkerCells.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2027525925A22212006FB65E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20FD1E1425A342B800859537 /* LoginVC.swift */,
+				20FD1E1725A342DD00859537 /* SignUpVC.swift */,
+				20FD1E1A25A342F600859537 /* ForgotPasswordVC.swift */,
+				20FD1E1D25A3431500859537 /* HomeViewController.swift */,
+				20AD5FC325AE07A9002A99CC /* BookViewController.swift */,
+				2097916925B4355700823B2E /* ChooseWorkerVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C7D864120B091A802B86836 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFA99FBC296D2153B893BE56 /* Pods-CarWash.debug.xcconfig */,
+				E24A37EED79D75CF4FEDCDE8 /* Pods-CarWash.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B45E9C36FA652DDF79F292D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20589F1125A22C4D00881BE7 /* MapKit.framework */,
+				F37C8DAEDAE7C77DCCB0BFA7 /* Pods_CarWash.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2027525325A221F5006FB65E /* Build configuration list for PBXNativeTarget "CarWash" */;
 			buildPhases = (
+				A18680C0D3DDA001DEF59132 /* [CP] Check Pods Manifest.lock */,
 				2027523B25A221F1006FB65E /* Sources */,
 				2027523C25A221F1006FB65E /* Frameworks */,
 				2027523D25A221F1006FB65E /* Resources */,
+				22705544393B080CD9CA74F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,7 +202,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20EEADBC25B726DF005020AC /* WorkerCells.xib in Resources */,
 				2027524F25A221F5006FB65E /* LaunchScreen.storyboard in Resources */,
+				20FD1E2C25A345CF00859537 /* GoogleService-Info.plist in Resources */,
 				2027524C25A221F5006FB65E /* Assets.xcassets in Resources */,
 				2027524A25A221F1006FB65E /* Main.storyboard in Resources */,
 			);
@@ -132,14 +212,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22705544393B080CD9CA74F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarWash/Pods-CarWash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarWash/Pods-CarWash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarWash/Pods-CarWash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A18680C0D3DDA001DEF59132 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarWash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2027523B25A221F1006FB65E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2027524725A221F1006FB65E /* ViewController.swift in Sources */,
+				20FD1E1825A342DD00859537 /* SignUpVC.swift in Sources */,
 				2027524325A221F1006FB65E /* AppDelegate.swift in Sources */,
 				2027524525A221F1006FB65E /* SceneDelegate.swift in Sources */,
+				20EEADBB25B726DF005020AC /* WorkerCells.swift in Sources */,
+				2097916A25B4355700823B2E /* ChooseWorkerVC.swift in Sources */,
+				20AD5FC425AE07A9002A99CC /* BookViewController.swift in Sources */,
+				20FD1E1525A342B800859537 /* LoginVC.swift in Sources */,
+				20FD1E1B25A342F600859537 /* ForgotPasswordVC.swift in Sources */,
+				20FD1E1E25A3431500859537 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +411,11 @@
 		};
 		2027525425A221F5006FB65E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA99FBC296D2153B893BE56 /* Pods-CarWash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarWash/CarWash.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AXP552NXR;
 				INFOPLIST_FILE = CarWash/Info.plist;
@@ -302,9 +432,11 @@
 		};
 		2027525525A221F5006FB65E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24A37EED79D75CF4FEDCDE8 /* Pods-CarWash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarWash/CarWash.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AXP552NXR;
 				INFOPLIST_FILE = CarWash/Info.plist;
